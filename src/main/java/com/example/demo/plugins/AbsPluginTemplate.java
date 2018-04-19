@@ -8,7 +8,7 @@ public abstract class AbsPluginTemplate implements PluginTemplate {
     private Errors errors = new Errors();
 
     @Override
-    public int getStakOrder() {
+    public int getStackOrder() {
         return stakOrder;
     }
 

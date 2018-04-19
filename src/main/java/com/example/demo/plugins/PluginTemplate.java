@@ -7,7 +7,7 @@ import java.util.Map;
 public interface PluginTemplate {
 
     void execute();
-    int getStakOrder();
+    int getStackOrder();
     String readData() throws Exception;
     void writeData() throws Exception;
     void initialize(int order);
