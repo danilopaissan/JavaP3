@@ -4,17 +4,17 @@ import com.example.demo.objects.Errors;
 import com.example.demo.objects.Error;
 
 public abstract class AbsPluginTemplate implements PluginTemplate {
-    private int stakOrder = 0;
+    private int stackOrder = 0;
     private Errors errors = new Errors();
 
     @Override
     public int getStackOrder() {
-        return stakOrder;
+        return stackOrder;
     }
 
     @Override
     public void initialize(int order) {
-        stakOrder = order;
+        stackOrder = order;
     }
 
     @Override
