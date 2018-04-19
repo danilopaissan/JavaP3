@@ -1,0 +1,28 @@
+{
+  "listOfBean":[
+    {
+      "name":"dataReader",
+      "order":0,
+      "properties":
+        {
+          "file-input-path":"./input.txt"
+        }
+    },
+    {
+      "name":"removeSpaces",
+      "order":1
+    },
+    {
+      "name":"toUpperCase",
+      "order":2
+    },
+    {
+      "name":"dataWriter",
+      "order":3,
+      "properties":
+        {
+          "file-output-path":"./output.txt"
+        }
+    }
+  ]
+}
